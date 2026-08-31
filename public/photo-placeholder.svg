@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
-  <rect width="320" height="320" fill="#e8ddc9"/>
-  <circle cx="160" cy="128" r="56" fill="#c9b896"/>
-  <path d="M48 300c0-66 50-112 112-112s112 46 112 112" fill="#c9b896"/>
-  <text x="160" y="290" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#6f371c">
-    Swap this photo
-  </text>
-</svg>
