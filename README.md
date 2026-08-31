@@ -1,19 +1,19 @@
-# Basic Starter Template
+# Lorenzo Weaver — Personal Site
 
-A small five-page HTML site about farming in middle Georgia. Use it to
-practice the whole workflow — grab a template, clone it, edit it, push your
-changes back, and put it live on the class server. No Python to write, no
-Flask, no database. Just HTML and CSS.
+A three-page personal site: About Me, Resume, and a favorite vacation spot.
+Built from a basic HTML starter template to practice the whole workflow —
+grab a template, clone it, edit it, push your changes back, and put it live
+on the class server. No Python to write, no Flask, no database. Just HTML
+and CSS.
 
 ## What's in it
 
 ```
 public/                 Your website. Everything in here is public.
-  index.html            Home — why middle Georgia grows what it does
-  peaches.html          Peaches
-  pecans.html           Pecans
-  peanuts.html          Peanuts
-  poultry.html          Poultry
+  index.html            About Me
+  resume.html           Resume
+  vacation.html         Favorite vacation spot
+  photo-placeholder.svg Placeholder headshot — swap for a real photo
   styles.css            Shared styling (one --brand color drives the theme)
 
 Procfile                How the class server starts your site

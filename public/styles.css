@@ -107,6 +107,72 @@ a:hover {
   color: var(--brand);
 }
 
+/* About page photo */
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.about-hero .photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--card);
+  box-shadow: 0 0 0 1px var(--border);
+  flex-shrink: 0;
+}
+
+.about-hero h1 {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 30rem) {
+  .about-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Resume entries */
+.resume-entry {
+  margin-bottom: 1.5rem;
+}
+
+.resume-entry-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.resume-entry-head strong {
+  color: var(--brand-dark);
+  font-size: 1.05rem;
+}
+
+.resume-dates {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.resume-sub {
+  margin: 0.15rem 0 0.5rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.resume-entry ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.resume-entry li {
+  margin-bottom: 0.25rem;
+}
+
 /* Facts block */
 .facts {
   background: var(--card);
